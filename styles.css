@@ -1,0 +1,153 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#F5E7E2;
+color:#4A2D24;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:white;
+box-shadow:0 2px 8px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+z-index:100;
+}
+
+header h1{
+font-family:'Playfair Display',serif;
+}
+
+nav a{
+text-decoration:none;
+margin-left:20px;
+color:#4A2D24;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(
+rgba(245,231,226,.85),
+rgba(245,231,226,.85)
+);
+}
+
+.hero h2{
+font-family:'Playfair Display',serif;
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:650px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.btn{
+background:#4A2D24;
+color:white;
+padding:14px 28px;
+border-radius:40px;
+text-decoration:none;
+display:inline-block;
+}
+
+.btn-secondary{
+background:#D8B7B0;
+color:#4A2D24;
+padding:14px 28px;
+border-radius:40px;
+text-decoration:none;
+margin-left:10px;
+}
+
+.catalogo,
+.nosotros,
+.tallas,
+.contacto{
+padding:80px 10%;
+text-align:center;
+}
+
+.productos{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.producto{
+background:white;
+padding:15px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.producto img{
+width:100%;
+border-radius:10px;
+}
+
+.producto button{
+margin-top:15px;
+background:#4A2D24;
+color:white;
+border:none;
+padding:12px 20px;
+cursor:pointer;
+border-radius:25px;
+}
+
+.tabla{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.tabla div{
+background:white;
+padding:30px;
+border-radius:15px;
+min-width:150px;
+}
+
+footer{
+background:#4A2D24;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+text-decoration:none;
+color:white;
+}
